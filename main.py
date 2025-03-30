@@ -1,4 +1,5 @@
 import functions_framework
+
 import json
 from flask import Flask, jsonify, request
 from langchain_google_vertexai import ChatVertexAI

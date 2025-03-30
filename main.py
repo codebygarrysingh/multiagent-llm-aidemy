@@ -1,4 +1,5 @@
-https://github.com/codebygarrysinimport functions_framework
+import functions_framework
+
 import json
 from flask import Flask, jsonify, request
 from langchain_google_vertexai import ChatVertexAI
@@ -66,4 +67,3 @@ def recommended(request):
 
     
     return jsonify(recommendations_list)
-gh/multiagent-llm-aidemy/tree/main
